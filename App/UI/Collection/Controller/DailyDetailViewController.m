@@ -70,7 +70,7 @@
 
 -(void)setUI{
     
-    UIImageView *backImageView = [[UIImageView alloc]initWithFrame:self.view.bounds];
+    UIImageView *backImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, APP_WIDTH, APP_HEIGHT)];
     [backImageView sd_setImageWithURL:[NSURL URLWithString:self.model.ImageView] completed:nil];
     [self.view addSubview:backImageView];
     

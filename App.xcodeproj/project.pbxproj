@@ -1553,7 +1553,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/App/lib/MyPrefixHeader.pch";
 				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_FILE = App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdinghao.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1574,7 +1574,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/App/lib/MyPrefixHeader.pch";
 				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_FILE = App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdinghao.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
